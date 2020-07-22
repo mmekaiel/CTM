@@ -327,9 +327,6 @@ C:\Users\mmekaiel\Desktop\CTM\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnal
 C:\Users\mmekaiel\Desktop\CTM\obj\Debug\netcoreapp3.1\CTM.csprojAssemblyReference.cache
 C:\Users\mmekaiel\Desktop\CTM\obj\Debug\netcoreapp3.1\CTM.AssemblyInfoInputs.cache
 C:\Users\mmekaiel\Desktop\CTM\obj\Debug\netcoreapp3.1\CTM.AssemblyInfo.cs
-C:\Users\mmekaiel\Desktop\CTM\obj\Debug\netcoreapp3.1\CTM.csproj.CoreCompileInputs.cache
-C:\Users\mmekaiel\Desktop\CTM\obj\Debug\netcoreapp3.1\CTM.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\mmekaiel\Desktop\CTM\obj\Debug\netcoreapp3.1\CTM.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\mmekaiel\Desktop\CTM\obj\Debug\netcoreapp3.1\CTM.RazorAssemblyInfo.cache
 C:\Users\mmekaiel\Desktop\CTM\obj\Debug\netcoreapp3.1\CTM.RazorAssemblyInfo.cs
 C:\Users\mmekaiel\Desktop\CTM\obj\Debug\netcoreapp3.1\CTM.TagHelpers.input.cache
@@ -351,3 +348,7 @@ C:\Users\mmekaiel\Desktop\CTM\obj\Debug\netcoreapp3.1\staticwebassets\CTM.Static
 C:\Users\mmekaiel\Desktop\CTM\obj\Debug\netcoreapp3.1\CTM.dll
 C:\Users\mmekaiel\Desktop\CTM\obj\Debug\netcoreapp3.1\CTM.pdb
 C:\Users\mmekaiel\Desktop\CTM\obj\Debug\netcoreapp3.1\CTM.genruntimeconfig.cache
+C:\Users\mmekaiel\Desktop\CTM\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\mmekaiel\Desktop\CTM\obj\Debug\netcoreapp3.1\CTM.csproj.CoreCompileInputs.cache
+C:\Users\mmekaiel\Desktop\CTM\obj\Debug\netcoreapp3.1\CTM.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mmekaiel\Desktop\CTM\obj\Debug\netcoreapp3.1\CTM.MvcApplicationPartsAssemblyInfo.cache

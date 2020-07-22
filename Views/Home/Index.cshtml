@@ -1,8 +1,41 @@
 ﻿@{
     ViewData["Title"] = "CTM";
 }
-
-<div class="text-center">
-    <h1 class="display-4">CTM Final Interview</h1>
-    <p>Senior Software Engineer</p>
+<div class="container">
+    <div class="text-center">
+        <h1 class="display-4">CTM Final Interview</h1>
+        <input type="number" id="num-input" />
+        <button type="button" id="get-results">Get Results</button>
+        <div id="results" class="mt-4"></div>
+    </div>
 </div>
+
+@section Scripts {
+    <script type="text/javascript">
+
+        $(document).ready(function() {
+            // Expected results for 25: ["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13","14","FizzBuzz","16","17","Fizz","19","Buzz","Fizz","22","23","Fizz","Buzz"]
+            $('#get-results').on('click',
+                function() {
+                    var data = {
+                        num: $('#num-input').val()
+                    };
+
+                    $.ajax({
+                        type: "POST",
+                        url: "@Url.Action("GetResults", "Home")",
+                        dataType: "json",
+                        data: data,
+                        success: function (res) {
+                            $('#results').empty();
+                            $('#results').append("<h3>Sequence</h3>");
+                            $.each(res,
+                                function(i, v) {
+                                    $('#results').append("<span>" + v  + "</span></br>");
+                                });
+                        }
+                    });
+                });
+        });
+    </script>
+}
